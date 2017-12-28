@@ -105,7 +105,7 @@ zstyle ':prezto:module:editor' key-bindings 'emacs'
 #
 
 # Set the Pacman frontend.
-# zstyle ':prezto:module:pacman' frontend 'yaourt'
+zstyle ':prezto:module:pacman' frontend 'yaourt'
 
 #
 # Prompt
@@ -123,7 +123,7 @@ zstyle ':prezto:module:prompt' theme 'giddie'
 
 # Set the prompt to display the return code along with an indicator for non-zero
 # return codes. This is not supported by all prompts.
-# zstyle ':prezto:module:prompt' show-return-val 'yes'
+zstyle ':prezto:module:prompt' show-return-val 'yes'
 
 #
 # Ruby
@@ -137,7 +137,7 @@ zstyle ':prezto:module:prompt' theme 'giddie'
 #
 
 # Auto switch the Python virtualenv on directory change.
-# zstyle ':prezto:module:python:virtualenv' auto-switch 'yes'
+zstyle ':prezto:module:python:virtualenv' auto-switch 'yes'
 
 # Automatically initialize virtualenvwrapper if pre-requisites are met.
 # zstyle ':prezto:module:python:virtualenv' initialize 'yes'
@@ -222,4 +222,4 @@ zstyle ':prezto:module:prompt' theme 'giddie'
 # Enabled safe options. This aliases cp, ln, mv and rm so that they prompt
 # before deleting or overwriting files. Set to 'no' to disable this safer
 # behavior.
-# zstyle ':prezto:module:utility' safe-ops 'yes'
+zstyle ':prezto:module:utility' safe-ops 'no'
