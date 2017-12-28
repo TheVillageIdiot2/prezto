@@ -17,7 +17,9 @@ path=(~/bin $path[@])
 
 #Rust
 export PATH=${PATH}:${HOME}/.cargo/bin
-export RUST_SRC_PATH=/usr/src/rust/src
+
+#Ruby (ew)
+export PATH=${PATH}:${HOME}/.gem/ruby/2.4.0/bin
 
 #Editors
 export EDITOR='nvim'
